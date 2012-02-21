@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<!-- $Id: de.xml 527 2009-11-11 20:15:31Z TobiasH87 $ -->
+<language languagecode="de">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.profil.guildwars"><![CDATA[Guild Wars (GW)]]></item>
+		<item name="wcf.user.option.gwplayername"><![CDATA[Spielername(n)]]></item>
+		<item name="wcf.user.option.gwplayername.description"><![CDATA[Tragen Sie hier Ihre(n) Spielernamen, mit Komma (,) getrennt, ein.]]></item>
+		<item name="wcf.user.option.gwcharacterclass"><![CDATA[Charakterklasse(n)]]></item>
+		<item name="wcf.user.option.gwcharacterclass.description"><![CDATA[Wählen Sie hier Ihre Charakterklasse(n) aus.]]></item>
+		<item name="wcf.user.option.gwcampaigns"><![CDATA[Kampagne(n)]]></item>
+		<item name="wcf.user.option.gwcampaigns.description"><![CDATA[Wählen Sie hier Ihre Kampagne(n) aus.]]></item>
+		<item name="wcf.user.option.gwother"><![CDATA[Sonstiges]]></item>
+		<item name="wcf.user.option.gwother.description"><![CDATA[Hier könne Sie reinschreiben, was Sie möchten.]]></item>
+		<item name="wcf.user.option.gwcharacterclass.assassin"><![CDATA[Assassine]]></item>
+		<item name="wcf.user.option.gwcharacterclass.dervish"><![CDATA[Derwisch]]></item>
+		<item name="wcf.user.option.gwcharacterclass.elementalist"><![CDATA[Elementarmagier]]></item>
+		<item name="wcf.user.option.gwcharacterclass.warrior"><![CDATA[Krieger]]></item>
+		<item name="wcf.user.option.gwcharacterclass.mesmer"><![CDATA[Mesmer]]></item>
+		<item name="wcf.user.option.gwcharacterclass.monk"><![CDATA[Mönch]]></item>
+		<item name="wcf.user.option.gwcharacterclass.necromancer"><![CDATA[Nekromant]]></item>
+		<item name="wcf.user.option.gwcharacterclass.paragon"><![CDATA[Paragon]]></item>
+		<item name="wcf.user.option.gwcharacterclass.ritualist"><![CDATA[Ritualist]]></item>
+		<item name="wcf.user.option.gwcharacterclass.ranger"><![CDATA[Waldläufer]]></item>
+		<item name="wcf.user.option.gwcampaigns.prophecies"><![CDATA[Prophecies]]></item>
+		<item name="wcf.user.option.gwcampaigns.factions"><![CDATA[Factions]]></item>
+		<item name="wcf.user.option.gwcampaigns.nightfall"><![CDATA[Nightfall]]></item>
+		<item name="wcf.user.option.gwcampaigns.eyeofthenorth"><![CDATA[Eye-of-the-North]]></item>
+	</category>  
+</language>

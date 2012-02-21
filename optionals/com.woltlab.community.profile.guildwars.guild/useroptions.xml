@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<!-- $Id: useroptions.xml 526 2009-11-11 19:52:05Z TobiasH87 $ -->
+<data>     
+	<import>               
+		<options>                              
+			<option name="gwguild">
+				<categoryname>profil.guildwars</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>4</showorder>
+				<visible>0</visible>
+			</option>
+			<option name="gwguildURL">
+				<categoryname>profil.guildwars</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>5</showorder>
+				<visible>0</visible>
+				<defaultValue>http://</defaultValue>
+				<validationPattern>^$|^https?://</validationPattern>
+				<outputClass>UserOptionOutputURL</outputClass> 
+			</option>
+		</options>
+	</import>
+</data>

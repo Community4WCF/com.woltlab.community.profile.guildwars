@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<!-- $Id: useroptions.xml 1549 2010-08-22 18:28:35Z TobiasH87 $ -->
+<data>     
+	<import>               
+		<categories>
+			<category name="profil.guildwars">
+				<icon>icon/guildwarsM.png</icon>
+				<parent>profile</parent>
+				<showorder>27</showorder>
+			</category>
+		</categories>
+		<options>                              
+			<option name="gwplayername">
+				<categoryname>profil.guildwars</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>1</showorder>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+			<option name="gwcharacterclass">
+				<categoryname>profil.guildwars</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+01:wcf.user.option.gwcharacterclass.assassin
+02:wcf.user.option.gwcharacterclass.dervish
+03:wcf.user.option.gwcharacterclass.elementalist
+04:wcf.user.option.gwcharacterclass.warrior
+05:wcf.user.option.gwcharacterclass.mesmer
+06:wcf.user.option.gwcharacterclass.monk
+07:wcf.user.option.gwcharacterclass.necromancer
+08:wcf.user.option.gwcharacterclass.paragon
+09:wcf.user.option.gwcharacterclass.ritualist
+10:wcf.user.option.gwcharacterclass.ranger
+				]]></selectoptions>
+				<outputclass>UserOptionOutputlanguageinselectOptions</outputclass>
+				<showorder>2</showorder>
+				<visible>0</visible>          
+			</option>
+			<option name="gwcampaigns">
+				<categoryname>profil.guildwars</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+01:wcf.user.option.gwcampaigns.prophecies
+02:wcf.user.option.gwcampaigns.factions
+03:wcf.user.option.gwcampaigns.nightfall
+04:wcf.user.option.gwcampaigns.eyeofthenorth
+				]]></selectoptions>
+				<outputclass>UserOptionOutputlanguageinselectOptions</outputclass>
+				<showorder>3</showorder>
+				<visible>0</visible>          
+			</option>
+			<!--
+			<option name="gwother">
+				<categoryname>profil.guildwars</categoryname>
+				<optiontype>textarea</optiontype>
+				<showorder>6</showorder>
+				<visible>0</visible>          
+			</option>
+			-->
+		</options>
+	</import>
+</data>
