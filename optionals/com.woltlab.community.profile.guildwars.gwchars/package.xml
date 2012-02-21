@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 1824 2011-08-28 14:07:15Z TobiasH87 $ -->
+<package name="com.woltlab.community.profile.guildwars.gwchars">
+	<packageinformation>
+		<packagename><![CDATA[[GW] Guild Wars Fields - GWChars]]></packagename>
+		<packagename language="de"><![CDATA[[GW] Guild Wars Felder - GWChars]]></packagename>
+		<packagename language="de-informal"><![CDATA[[GW] Guild Wars Felder - GWChars]]></packagename>
+		<packagedescription><![CDATA[This plugin adds GWChars.de profile field.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Dieses Plugin fügt ein GWChars.de Profilfeld hinzu.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt ein GWChars.de Profilfeld hinzu.]]></packagedescription>
+		<version>1.0.0</version> <!-- codename: Guild Wars GWChars -->
+		<packageurl><![CDATA[http://www.community4wcf.de]]></packageurl>
+		<date>2010-08-08</date>
+		<isunique>1</isunique>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wcf.page.user.profile</plugin>
+	</packageinformation>
+	
+	<licenseinformation>
+		<license><![CDATA[GPL]]></license>
+		<licenseURL><![CDATA[http://www.gnu.org/licenses/gpl.html]]></licenseURL>
+	</licenseinformation>
+	
+	<authorinformation>
+		<author><![CDATA[TobiasH]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+	
+	<requiredpackages>
+		<!-- WoltLab Community Framework -->
+		<requiredpackage minversion="1.1.*">com.woltlab.wcf</requiredpackage> 
+		<!-- User Profile Page -->
+		<requiredpackage>com.woltlab.wcf.page.user.profile</requiredpackage> 
+		<!-- Guild Wars Fields -->
+		<requiredpackage minversion="1.0.*">com.woltlab.community.profile.guildwars</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<!-- config -->
+		<useroptions>useroptions.xml</useroptions>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions> 
+</package>

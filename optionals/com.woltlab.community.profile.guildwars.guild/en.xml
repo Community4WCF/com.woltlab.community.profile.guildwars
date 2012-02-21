@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<!-- $Id: en.xml 526 2009-11-11 19:52:05Z TobiasH87 $ -->
+<language languagecode="en">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.gwguild"><![CDATA[Guild]]></item>
+		<item name="wcf.user.option.gwguild.description"><![CDATA[Enter the name of your guild.]]></item>
+		<item name="wcf.user.option.gwguildURL"><![CDATA[Guild Website]]></item>
+		<item name="wcf.user.option.gwguildURL.description"><![CDATA[Enter here the website of your guild.]]></item>
+	</category>    
+</language>

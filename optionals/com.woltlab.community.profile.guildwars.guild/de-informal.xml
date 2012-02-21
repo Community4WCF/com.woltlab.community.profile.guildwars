@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<!-- $Id: de-informal.xml 526 2009-11-11 19:52:05Z TobiasH87 $ -->
+<language languagecode="de-informal">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.gwguild"><![CDATA[Gilde]]></item>
+		<item name="wcf.user.option.gwguild.description"><![CDATA[Tragen hier den Namen deiner Gilde ein.]]></item>
+		<item name="wcf.user.option.gwguildURL"><![CDATA[Webseite der Gilde]]></item>
+		<item name="wcf.user.option.gwguildURL.description"><![CDATA[Tragen hier die Webseite deiner Gilde ein.]]></item>
+	</category>   
+</language>
